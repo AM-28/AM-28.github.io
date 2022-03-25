@@ -1,6 +1,6 @@
-<?php
- echo "Thank you!";
-?>
+<!-- <?php -->
+//  echo "Thank you!";
+// ?>
 
 
 
@@ -12,7 +12,7 @@
 ?>
 
 <?php
-	$email_from = "$visitor_email from am-28.github.io";
+	$email_from = $visitor_email;
 
 	$email_subject = "New Form submission";
 
@@ -32,7 +32,7 @@
 
  ?>
 
-//<?php
+<!-- <?php -->
 //function IsInjected($str)
 //{
 //    injections = array('(\n+)', 
@@ -62,4 +62,4 @@
 //    echo "Bad email value!";
 //    exit;
 //}
-//?>
+// ?>
